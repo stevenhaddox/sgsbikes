@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#header {
+	height:130px;
+	width:auto;
+	text-align:center;
+}
+
+#menu {
+	height:500px;
+	width:150px;
+	float:left;
+}
+
+#content {
+	width:auto;
+	float:auto;
+}
+
+#footer {
+	clear:both;
+	text-align:center;
+}
