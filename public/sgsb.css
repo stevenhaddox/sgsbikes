@@ -65,20 +65,16 @@ img.center {
   margin-right: auto;
 }
 
-#column1-wrap{
-    float: left;
-    width: 100%;
-}
-#column1{
-    background-color: #CCC;
-    margin-right: 200px;
-}
-#column2{
-    background-color: #CCC;
-    float: left;
-    width: 200px;
-    margin-left: -200px;
-}
-#clear{
-    clear: both;
-}
+#left {
+        width: 550px;
+        float: left;
+    }
+
+#right {
+        margin-left:550px; /* Change this to whatever the width of your left column is*/
+    }
+
+.clear {
+        clear: both;
+    }
+
