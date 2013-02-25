@@ -79,3 +79,12 @@ img.center {
         clear: both;
     }
 
+.left {
+	float:left;
+	width:250px;
+}
+
+.right {
+	float:right;
+}
+
