@@ -87,11 +87,11 @@ img.center {
     width: 100%;
 }
 #column1{
-    background-color: cyan;
-    margin-right: 200px;
+    background-color: #CCC;
+    margin-right: 400px;
 }
 #column2{
-    background-color: lime;
+    background-color: #CCC;
     float: left;
     width: 200px;
     margin-left: -200px;
