@@ -26,12 +26,13 @@ nav, #nav {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-article, #content {
-  width: 950px !important;
+article {
   height: auto;
   border-radius: 5px;
   background: #E0E0E0;
   color: #000;
+}
+#content {
   padding: 1em 5px;
 }
 
@@ -60,6 +61,7 @@ footer p, #footer p {
 
 #right {
   margin-left: 550px; /* Change this to whatever the width of your left column is*/
+  padding-top: 35px;
 }
 
 p {
