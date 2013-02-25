@@ -65,23 +65,6 @@ img.center {
   margin-right: auto;
 }
 
-#container {
-	width: 100%;
-	clear:both;
-}
-
-#col_left {
-	float:left;
-	width:550px;
-	margin:10px;
-}
-
-#col_right {
-	float:right;
-	width: inherit;
-	margin:10px;
-}
-
 #column1-wrap{
     float: left;
     width: 100%;
