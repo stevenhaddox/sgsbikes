@@ -37,6 +37,7 @@ article {
   background: #E0E0E0;
   color: #000;
 }
+
 #content {
   padding: 1em 5px;
 }
@@ -97,4 +98,15 @@ img.center {
 .right {
   float: right;
   width: inherit;
+}
+
+article #content #about .headshot {
+  width: 30%;
+  float: left;
+  height: 300px;
+}
+
+article #content #about .caption {
+  width: 600px;
+  height: 300px;
 }
