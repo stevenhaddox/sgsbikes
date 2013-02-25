@@ -2,57 +2,70 @@
 /* CSS Document */
 
 body {
+  padding: 2em 0 0 0;
   background: #000 url('sgsbimages/BG.jpg');
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-#header {
-  height:200px;
-  width:auto;
-  text-align:center;
+header, nav, article, footer {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#nav {
-	margin-left:auto;
-	margin-right:auto;
-	width:960px;
-	background:#E0E0E0;
-	border-radius: 15px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #FFF;
+header, #header {
+  height: 200px;
+  width: auto;
+  text-align: center;
 }
 
-#content {
-    margin-left:auto;
-    margin-right:auto;
-    width:955px;
-	background:#CCC;
-	height:auto;
-    border-radius: 5px;
-	color:#000;
-	padding-top:0px;
-    padding-bottom:5px;
-    padding-right:5px;
-    padding-left:5px;
+nav, #nav {
+  background: #E0E0E0;
+  border-radius: 15px;
+  color: #FFF;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-#footer {
-  clear:both;
-  text-align:center;
-  color:#FFF;
-  font-size:12px;
-  font-family:Georgia, "Times New Roman", Times, serif;
+article, #content {
+  width: 950px !important;
+  height: auto;
+  border-radius: 5px;
+  background: #E0E0E0;
+  color: #000;
+  padding: 1em 5px;
 }
 
-#p {
-	font-family:Georgia, "Times New Roman", Times, serif;
-	font-size:14px;
-	font-color:000;
-	color: #000;
+footer, #footer {
+  padding: .5em 0 0 .5em;
+  clear: both;
+  text-align: center;
+  color: #FFF;
+  font-size: 12px;
+}
+
+footer p, #footer p {
+  color: #FFF;
+  font-size: 12px;
 }
 
 #event {
-       padding: 10px 32px;
+  padding: 10px 32px;
+}
+
+#left {
+  width: 550px;
+  float: left;
+  padding: 35px;
+}
+
+#right {
+  margin-left: 550px; /* Change this to whatever the width of your left column is*/
+}
+
+p {
+  font-size: 14px;
+  font-color: #000;
+  color: #000;
 }
 
 .center {
@@ -65,27 +78,16 @@ img.center {
   margin-right: auto;
 }
 
-#left {
-        width: 550px;
-        float: left;
-		padding:35px;
-    }
-
-#right {
-        margin-left:550px; /* Change this to whatever the width of your left column is*/
-    }
-
 .clear {
-        clear: both;
-    }
+  clear: both;
+}
 
 .left {
-	float:left;
-	width:250px;
+  float: left;
+  width: 250px;
 }
 
 .right {
-	float:right;
-	width:inherit;
+  float: right;
+  width: inherit;
 }
-
