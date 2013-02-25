@@ -21,14 +21,16 @@ header, #header {
 
 nav, #nav {
   background: #E0E0E0;
-  border-radius: 15px;
+  /* border-radius: 15px; */
   color: #FFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+nav .navbar { margin-bottom: 0; }
+
 article {
   height: auto;
-  border-radius: 5px;
+  border-radius: 0 0 5px 5px;
   background: #E0E0E0;
   color: #000;
 }
@@ -61,7 +63,6 @@ footer p, #footer p {
 
 #right {
   margin-left: 550px; /* Change this to whatever the width of your left column is*/
-  padding-top: 35px;
 }
 
 p {
