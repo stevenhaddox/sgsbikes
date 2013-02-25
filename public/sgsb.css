@@ -70,6 +70,8 @@ footer p, #footer p {
   margin-left: 550px; /* Change this to whatever the width of your left column is*/
 }
 
+h2 { padding-bottom: .5em; }
+
 p {
   font-size: 14px;
   font-color: #000;
