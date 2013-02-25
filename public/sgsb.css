@@ -66,13 +66,13 @@ img.center {
 }
 
 #left {
-        width: 650px;
+        width: 550px;
         float: left;
 		padding:20px;
     }
 
 #right {
-        margin-left:650px; /* Change this to whatever the width of your left column is*/
+        margin-left:550px; /* Change this to whatever the width of your left column is*/
     }
 
 .clear {
