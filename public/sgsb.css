@@ -72,12 +72,12 @@ img.center {
 
 #col_left {
 	float:left;
-	width:70%;
-	margin:5px;
+	width:550px;
+	margin:10px;
 }
 
 #col_right {
 	float:right;
-	width:30%;
-	margin:5px;
+	width: inherit;
+	margin:10px;
 }
