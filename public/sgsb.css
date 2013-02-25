@@ -68,6 +68,7 @@ img.center {
 #left {
         width: 650px;
         float: left;
+		padding:20px;
     }
 
 #right {
