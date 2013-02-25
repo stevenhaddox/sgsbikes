@@ -65,6 +65,7 @@ footer p, #footer p {
 }
 
 #right {
+  padding-top: 35px;
   margin-left: 550px; /* Change this to whatever the width of your left column is*/
 }
 
