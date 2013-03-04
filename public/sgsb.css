@@ -39,7 +39,7 @@ article {
 }
 
 #content {
-  padding: 1em 5px;
+  padding: 1em 2em;
 }
 
 footer, #footer {
@@ -60,7 +60,7 @@ footer p, #footer p {
 }
 
 #left {
-  width: 550px;
+  width: 530px;
   float: left;
   padding: 35px;
 }
@@ -111,4 +111,11 @@ article #content #about .headshot {
 article #content #about .caption {
   width: 600px;
   height: 300px;
+}
+
+article #content .social-media p {
+  width: 301px;
+  display: block;
+  float: left;
+  text-align: center;
 }
